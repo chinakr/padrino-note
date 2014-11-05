@@ -21,38 +21,38 @@ Padrino是用Ruby语言开发的、基于Sinatra的Web开发框架。
 
 相比Rails，Padrino要更加简单，这不仅使学习成本更低，在大多数场景下还具有更好的性能。和Sinatra相比，Padrino同样简洁、易用，同时具有更加完善的功能，更适合Web开发的需要。
 
-在坚持Sinatra核心理念的同时，Padrino提供了一系列工具、helper和函数库，从而具有了上述优势。
+在坚持Sinatra核心理念的同时，Padrino提供了一系列工具(tools)、助手(helpers)和函数(functions)库，从而具有了上述优势。
 
 
 ## Padrino比Sinatra多了哪些功能
 
-* `Agnostic`
+* `Agnostic`：对众多流行的测试、模板、模仿(mocking)和数据库的库提供了支持。
 
-* `Generators`
+* 生成器(generators)：创建Padrino应用、模型、控制器。
 
-* `Mountable`
+* 可安装(mountable)：和其他Ruby框架不同，主要用于安装多个应用。
 
-* `Routing`
+* 路由(routing)：提供完整的URL命名路由、命名参数、`respond_to`、前/后置过滤器支持。
 
-* `Tag Helpers`
+* 标签助手(tag helpers)：视图助手，例如`tag`、`content_tag`、`input_tag`。
 
-* `Asset Helpers`
+* 资产助手(asset helpers)：视图助手，例如`link_to`、`image_tag`。
 
-* `Form Helpers`
+* 表单助手(form helpers)：生成器(builder)支持，例如`form_tag`、`form_for`、`field_set_tag`。
 
-* `Text Helpers`
+* 文本助手(text helpers)：有用格式，例如`relative_time_ago`、`js_escape_html`。
 
-* `Mailer`
+* 邮件程序(mailer)：快速简单的邮件发送支持，类似`ActionMailer`。
 
-* `Caching`
+* 缓存(caching)：简单的路由和碎片(fragment)缓存，使加速Web请求变得很容易。
 
-* `Admin`
+* 管理工具(admin)：内建包括认证的管理工具，类似Django。
 
-* `Logging`
+* 日志(loggin)：提供同ORM或任何库交互的统一的记录器。
 
-* `Reloading`
+* 重新加载(reloading)：在开发阶段自动重载服务器代码。
 
-* `Localization`
+* 本地化(localization)：提供完整的i18n本地化支持。
 
 
 ## 如何安装Padrino
