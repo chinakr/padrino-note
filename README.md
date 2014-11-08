@@ -14,6 +14,8 @@
 
 [Padrino简介](intro.md)
 
+[官方入门教程：用Padrino开发博客系统](blog_tutorial.md)
+
 
 ## 相关链接
 
