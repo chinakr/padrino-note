@@ -168,7 +168,7 @@
     end
 
 
-## 创建管工具
+## 创建管理工具
 
     $ padrino g admin
 
