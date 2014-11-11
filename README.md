@@ -16,6 +16,8 @@
 
 [官方入门教程：用Padrino开发博客系统](blog_tutorial.md)
 
+[在Padrino中使用Bootstrap](padrino_bootstrap.md)
+
 
 ## 相关链接
 
