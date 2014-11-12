@@ -31,6 +31,10 @@
 
     + [robbin：Ruby社区应该去Rails化了](http://robbinfan.com/blog/40/ruby-off-rails "2013-03-26")
 
+    + [Sinatra Book](https://github.com/sinatra/sinatra-book/ "可生成PDF版本")
+
+    + [Sinatra入门](http://www.sinatrarb.com/intro.html "Sinatra Getting Started")
+
 * 基础(Basic)
     
     + [Padrino路由](http://www.padrinorb.com/guides/controllers "Padrino Routing")
