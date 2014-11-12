@@ -18,6 +18,8 @@
 
 [在Padrino中使用Bootstrap](padrino_bootstrap.md)
 
+[实例：培训机构网站开发手记](sample/institution.md)
+
 
 ## 相关链接
 
@@ -26,6 +28,8 @@
 [Padrino官网](http://www.padrinorb.com/)
 
 [robbin：Ruby社区应该去Rails化了](http://robbinfan.com/blog/40/ruby-off-rails "2013-03-26")
+
+[Active Record基础](http://guides.rubyonrails.org/active_record_basics.html "Active Record Basics")
 
 ### 友情链接
 
