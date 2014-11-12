@@ -76,4 +76,45 @@
 
 对于内容管理系统，最基本元素的是文章、分类和标签。
 
-    $ padrino g model article title:string content:text 
+    $ padrino g model article title:string content:text pubdate:date source:string owner:string category_id:integer
+
+    $ padrino g model category name:string
+
+    $ padrino g model tag name:string
+
+    $ padrino g model association article_id tag_id
+
+
+    $ subl models/article.rb
+
+    $ subl models/category.rb
+
+    $ subl models/tag.rb
+
+    $ subl models/association.rb
+
+    $ padrino rake ar:migrate
+
+
+    $ padrino g admin_page article
+
+    $ padrino g admin_page category
+
+    $ padrino g admin_page tag
+
+    $ firefox http://localhost:3000/admin/
+
+
+    $ padrino g controller articles get:index get:show
+
+    $ padrino g controller categories get:show
+
+    $ subl app/controllers/articles.rb
+
+    $ subl app/views/articles/index.erb
+
+    $ subl app/views/articles/show.erb
+
+    $ subl app/controllers/categories.rb
+
+    $ firefox http://localhost:3000/news/

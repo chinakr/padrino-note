@@ -25,11 +25,43 @@
 
 ### 参考资料
 
-[Padrino官网](http://www.padrinorb.com/)
+* 通用(General)
 
-[robbin：Ruby社区应该去Rails化了](http://robbinfan.com/blog/40/ruby-off-rails "2013-03-26")
+    + [Padrino官网](http://www.padrinorb.com/)
 
-[Active Record基础](http://guides.rubyonrails.org/active_record_basics.html "Active Record Basics")
+    + [robbin：Ruby社区应该去Rails化了](http://robbinfan.com/blog/40/ruby-off-rails "2013-03-26")
+
+* 基础(Basic)
+    
+    + [Padrino路由](http://www.padrinorb.com/guides/controllers "Padrino Routing")
+
+* 模型(Model)
+
+    + [Active Record基础](http://guides.rubyonrails.org/active_record_basics.html "Active Record Basics")
+
+    + [SQLite数据类型](http://www.sqlite.org/datatype3.html "Datatypes in SQLite 3")
+
+    + [Active Record数据关系](http://guides.rubyonrails.org/association_basics.html "Active Record Associations")
+
+    + [Active Record数据查询](http://guides.rubyonrails.org/active_record_querying.html "Active Record Query Interface")
+
+* 视图(View)
+
+    + [Bootstrap手册](http://getbootstrap.com/getting-started/ "Bootstrap Getting Started")
+
+* 控制器(Controller)
+
+    + [Padrino控制器](http://www.padrinorb.com/guides/controllers "Padrino Controllers")
+
+* 工具(Tool)
+
+    + [Padrino生成器](http://www.padrinorb.com/guides/generators "Padrino Generators")
+
+    + [Padrino管理工具](http://www.padrinorb.com/guides/padrino-admin "Padrino Admin")
+
+* 助手(Helper)
+
+    + [Padrino助手](http://www.padrinorb.com/guides/application-helpers "Padrino Application Helper")
 
 ### 友情链接
 
