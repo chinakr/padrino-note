@@ -118,3 +118,40 @@
     $ subl app/controllers/categories.rb
 
     $ firefox http://localhost:3000/news/
+
+
+## 边栏
+
+    $ subl app/views/layouts/_sidebar.erb
+
+    $ subl app/views/layouts/application.erb
+
+    $ subl app/app.rb
+
+
+## 课程价格
+
+    $ subl app/views/layouts/_price.erb
+
+    $ subl app/views/index.erb
+
+    $ subl public/stylesheets/application.css
+
+
+## 机构介绍
+
+    $ subl app/views/layouts/_intro.erb
+
+    $ subl app/views/index.erb
+
+    $ subl public/stylesheets/application.css
+
+
+## 分支机构
+
+    $ subl app/views/layouts/_branch.erb
+
+    $ subl app/views/index.erb
+
+
+## 图片新闻
