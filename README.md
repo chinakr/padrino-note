@@ -20,6 +20,8 @@
 
 [实例：培训机构网站开发手记](sample/institution.md)
 
+[把Padrino应用部署到服务器](deployment.md)
+
 
 ## 相关链接
 
