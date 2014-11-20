@@ -169,17 +169,17 @@
 
     $ subl app/views/layouts/_tongji.erb
 
-    $ scp -r app/views/layouts/* user@www.hdjxbm.com:/var/www/www.hdjxbm.com/public/
+    $ scp -r app/views/layouts/* user@www.example.com:/var/www/www.example.com/public/
 
 
 ## 百度网站验证
 
     $ cp ~/Downloads/baidu_verify_xxx.html public/
-    $ scp public/baidu_verify_xxx.html user@www.hdjxbm.com:/var/www/www.hdjxbm.com/public/
+    $ scp public/baidu_verify_xxx.html user@www.example.com:/var/www/www.example.com/public/
 
 
 ## 添加百度Sitemap
 
     $ subl public/sitemap.txt
 
-    $ scp public/sitemap.txt user@www.hdjxbm.com:/var/www/www.hdjxbm.com/public/
+    $ scp public/sitemap.txt user@www.example.com:/var/www/www.example.com/public/
