@@ -155,3 +155,31 @@
 
 
 ## 图片新闻
+
+
+## 网站部署
+
+
+参考[把Padrino应用部署到服务器](https://github.com/chinakr/padrino-note/blob/master/deployment.md)。
+
+
+## 添加百度统计代码
+
+    $ subl app/views/layouts/application.erb
+
+    $ subl app/views/layouts/_tongji.erb
+
+    $ scp -r app/views/layouts/* user@www.hdjxbm.com:/var/www/www.hdjxbm.com/public/
+
+
+## 百度网站验证
+
+    $ cp ~/Downloads/baidu_verify_xxx.html public/
+    $ scp public/baidu_verify_xxx.html user@www.hdjxbm.com:/var/www/www.hdjxbm.com/public/
+
+
+## 添加百度Sitemap
+
+    $ subl public/sitemap.txt
+
+    $ scp public/sitemap.txt user@www.hdjxbm.com:/var/www/www.hdjxbm.com/public/
