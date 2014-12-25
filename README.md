@@ -22,6 +22,8 @@
 
 [把Padrino应用部署到服务器](deployment.md)
 
+[使用Capistrano 3部署Padrino应用](capistrano_padrino_deployment.md)
+
 
 ## 相关链接
 
